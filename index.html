@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Happy Birthday ❤️</title>
+
+<link rel="stylesheet" href="style.css">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&family=Great+Vibes&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+<!-- Loading Screen -->
+
+<div id="loader">
+
+<h1>✨ Preparing a Special Surprise ✨</h1>
+
+<div class="spinner"></div>
+
+</div>
+
+<!-- Fireworks -->
+
+<canvas id="fireworks"></canvas>
+
+<!-- Floating Hearts -->
+
+<div id="hearts"></div>
+
+<!-- Navigation -->
+
+<nav>
+
+<div class="logo">
+
+🎂 Happy Birthday
+
+</div>
+
+<ul>
+
+<li><a href="#home">Home</a></li>
+
+<li><a href="#cake">Cake</a></li>
+
+<li><a href="#gallery">Gallery</a></li>
+
+<li><a href="#letter">Letter</a></li>
+
+</ul>
+
+</nav>
+
+<!-- Hero -->
+
+<section id="home" class="hero">
+
+<h3>For My Lovely Sister ❤️</h3>
+
+<h1>Happy Birthday</h1>
+
+<h2 id="sisterName">
+
+Your Sister's Name
+
+</h2>
+
+<p>
+
+Today is all about celebrating the wonderful person you are.
+
+Thank you for filling every moment with happiness and love.
+
+I hope this little surprise makes you smile.
+
+</p>
+
+<button id="startBtn">
+
+Start The Surprise 🎁
+
+</button>
+
+</section>
+
+<!-- Cake Section -->
+
+<section id="cake">
+
+<h2>
+
+🎂 Birthday Cake
+
+</h2>
+
+<div id="cakeContainer">
+
+<!-- Cake comes from JavaScript -->
+
+</div>
+
+</section>
+
+<!-- Gift -->
+
+<section id="gift">
+
+<h2>
+
+🎁 A Gift For You
+
+</h2>
+
+<div id="giftBox">
+
+🎁
+
+</div>
+
+</section>
+
+<!-- Letter -->
+
+<section id="letter">
+
+<h2>
+
+💌 Open My Letter
+
+</h2>
+
+<div id="letterBox">
+
+<p id="typingText"></p>
+
+</div>
+
+</section>
+
+<!-- Gallery -->
+
+<section id="gallery">
+
+<h2>
+
+📸 Beautiful Memories
+
+</h2>
+
+<div class="gallery">
+    <img src="images/photo1.jpeg" alt="Photo 1">
+    <img src="images/photo2.jpeg" alt="Photo 2">
+    <img src="images/photo3.jpeg" alt="Photo 3">
+    <img src="images/photo4.jpeg" alt="Photo 4">
+    <img src="images/photo5.jpeg" alt="Photo 5">
+    <img src="images/photo6.jpeg" alt="Photo 6">
+</div>
+
+</section>
+
+<!-- Balloon Game -->
+
+<section id="game">
+
+    <h2>🎈 Balloon Pop Challenge 🎈</h2>
+
+    <h3 id="score">
+        Score : 0
+    </h3>
+
+    <div id="gameArea"></div>
+
+    <button id="playGame">
+        ▶ Start Game
+    </button>
+
+</section>
+
+<!-- Music -->
+
+<div id="musicControl">
+
+<button id="musicBtn">
+
+🎵 Play Music
+
+</button>
+
+<audio id="music" loop>
+
+<source src="music/birthday.mp3" type="audio/mpeg">
+
+</audio>
+
+</div>
+
+<!-- Footer -->
+
+<footer>
+
+<h2>
+
+❤️ Happy Birthday ❤️
+
+</h2>
+
+<p>
+
+Made with Love
+
+</p>
+
+</footer>
+
+<script src="script.js"></script>
+<!-- Lightbox -->
+<div id="lightbox">
+    <span id="closeLightbox">&times;</span>
+    <img id="lightboxImg">
+</div>
+
+<!-- Confetti -->
+<div id="confetti"></div>
+<!-- Lightbox -->
+<div id="lightbox">
+    <span id="closeLightbox">&times;</span>
+    <img id="lightboxImg" alt="Photo">
+</div>
+
+</body>
+
+</html>
